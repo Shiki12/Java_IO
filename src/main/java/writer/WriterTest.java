@@ -13,7 +13,6 @@ public class WriterTest {
 
         try {
             fileWriter =new FileWriter(srcPath,true);
-
             String str ="hello shiki";
             fileWriter.write(str);
 
