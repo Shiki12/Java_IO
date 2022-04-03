@@ -1,7 +1,5 @@
 package writer;
-
 import org.junit.Test;
-
 import java.io.FileWriter;
 import java.io.IOException;
 

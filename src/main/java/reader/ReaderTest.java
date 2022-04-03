@@ -9,8 +9,9 @@ public class ReaderTest {
 
     /*
     * 单个字符读取
-    *
     * */
+
+
     @Test
     public  void  read(){
         String  srcPath="src/main/resources/hello.txt";
@@ -18,14 +19,12 @@ public class ReaderTest {
         FileReader reader =null;
         try {
           reader = new FileReader(srcPath);
-
           while ( (data = reader.read()) != -1){
               System.out.print( (char) data);
           }
 
         } catch (IOException e) {
-
-
+            e.printStackTrace();
         }finally {
             if (reader !=null){
                 try {
