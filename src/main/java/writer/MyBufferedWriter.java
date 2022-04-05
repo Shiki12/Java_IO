@@ -16,7 +16,6 @@ public class MyBufferedWriter {
         bufferedWriter.write("------------->hello shiki");
         bufferedWriter.newLine();
         bufferedWriter.write("----------------------->hello shiki");
-
         bufferedWriter.close();
 
         /*
