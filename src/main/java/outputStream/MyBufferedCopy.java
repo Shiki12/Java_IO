@@ -14,7 +14,6 @@ public class MyBufferedCopy {
         int readLen = 0;
 
 
-
         //创建流
         BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(srcPath));
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(tarPath));
