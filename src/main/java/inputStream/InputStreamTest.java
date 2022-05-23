@@ -42,7 +42,7 @@ public class InputStreamTest {
     public void readFile_2(){
         //文件的位置
         String path ="src/main/resources/file.txt";
-        byte[] buf = new byte[10]; //一次读取 8 个字节  如果存在中文
+        byte[] buf = new byte[1024]; //一次读取 8 个字节  如果存在中文
         int readLen = 0;
         FileInputStream fileInputStream = null;
         try {
